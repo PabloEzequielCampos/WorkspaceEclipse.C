@@ -1,0 +1,35 @@
+/*
+ ============================================================================
+ Name        : EjercicioPracticaHospital.c
+ Author      : Pablo E. Campos DIV. 1.E
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int main(void) {
+
+	printf("\n Ejercicio de repaso");
+	printf("\n De 5  personas que ingresan al hospital se deben tomar y validar los siguientes datos.");
+
+	printf("\n la inicial , temperatura, sexo y edad.\n ");
+	printf("\n บบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบ\n");
+	printf("\n  A) Informar la cantidad de personas de cada sexo. \n ");
+	printf(" \n B) La edad promedio en total. \n );
+	printf("\n C) La mujer con mแs temperatura (si la hay ) \n);
+	printf(" \n Pedir datos y mostrar los resultados \n );
+
+
+	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	return EXIT_SUCCESS;
+}
