@@ -1,36 +1,82 @@
-17:38:46 **** Rebuild of configuration Debug for project Clase2Ej001 ****
+17:57:02 **** Rebuild of configuration Debug for project CLASE3EJ001 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase2Ej001.o" "..\\src\\Clase2Ej001.c" 
-gcc -o Clase2Ej001.exe "src\\Clase2Ej001.o" 
-Info: Nothing to build for Clase2Ej001
-17:48:14 **** Incremental Build of configuration Debug for project Clase2Ej001 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASE3EJ001.o" "..\\src\\CLASE3EJ001.c" 
+gcc -o CLASE3EJ001.exe "src\\CLASE3EJ001.o" 
+Info: Nothing to build for CLASE3EJ001
+18:01:26 **** Incremental Build of configuration Debug for project CLASE3EJ001 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase2Ej001.o" "..\\src\\Clase2Ej001.c" 
-gcc -o Clase2Ej001.exe "src\\Clase2Ej001.o" 
-Info: Nothing to build for Clase2Ej001
-17:49:39 **** Incremental Build of configuration Debug for project Clase2Ej001 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASE3EJ001.o" "..\\src\\CLASE3EJ001.c" 
+..\src\CLASE3EJ001.c: In function 'main':
+..\src\CLASE3EJ001.c:19:6: warning: variable 'returnNumber' set but not used [-Wunused-but-set-variable]
+   19 |  int returnNumber;
+      |      ^~~~~~~~~~~~
+..\src\CLASE3EJ001.c: In function 'getNumber':
+..\src\CLASE3EJ001.c:29:6: warning: variable 'total' set but not used [-Wunused-but-set-variable]
+   29 |  int total;
+      |      ^~~~~
+gcc -o CLASE3EJ001.exe "src\\CLASE3EJ001.o" 
+18:01:59 **** Incremental Build of configuration Debug for project CLASE3EJ001 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase2Ej001.o" "..\\src\\Clase2Ej001.c" 
-gcc -o Clase2Ej001.exe "src\\Clase2Ej001.o" 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Clase2Ej001.exe: Permission denied
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASE3EJ001.o" "..\\src\\CLASE3EJ001.c" 
+..\src\CLASE3EJ001.c: In function 'main':
+..\src\CLASE3EJ001.c:19:6: warning: variable 'returnNumber' set but not used [-Wunused-but-set-variable]
+   19 |  int returnNumber;
+      |      ^~~~~~~~~~~~
+gcc -o CLASE3EJ001.exe "src\\CLASE3EJ001.o" 
+18:03:02 **** Incremental Build of configuration Debug for project CLASE3EJ001 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASE3EJ001.o" "..\\src\\CLASE3EJ001.c" 
+gcc -o CLASE3EJ001.exe "src\\CLASE3EJ001.o" 
+Info: Nothing to build for CLASE3EJ001
+Info: Nothing to build for CLASE3EJ001
+18:12:29 **** Incremental Build of configuration Debug for project CLASE3EJ001 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASE3EJ001.o" "..\\src\\CLASE3EJ001.c" 
+..\src\CLASE3EJ001.c: In function 'circle':
+..\src\CLASE3EJ001.c:65:13: warning: 'area' is used uninitialized in this function [-Wuninitialized]
+   65 |  total = PI * area* area;
+      |             ^
+gcc -o CLASE3EJ001.exe "src\\CLASE3EJ001.o" 
+18:13:49 **** Incremental Build of configuration Debug for project CLASE3EJ001 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASE3EJ001.o" "..\\src\\CLASE3EJ001.c" 
+..\src\CLASE3EJ001.c: In function 'circle':
+..\src\CLASE3EJ001.c:67:20: warning: 'area' is used uninitialized in this function [-Wuninitialized]
+   67 |  return total = PI * area* area;
+      |                    ^
+gcc -o CLASE3EJ001.exe "src\\CLASE3EJ001.o" 
+18:17:39 **** Incremental Build of configuration Debug for project CLASE3EJ001 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASE3EJ001.o" "..\\src\\CLASE3EJ001.c" 
+gcc -o CLASE3EJ001.exe "src\\CLASE3EJ001.o" 
+Info: Nothing to build for CLASE3EJ001
+18:18:40 **** Incremental Build of configuration Debug for project CLASE3EJ001 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASE3EJ001.o" "..\\src\\CLASE3EJ001.c" 
+gcc -o CLASE3EJ001.exe "src\\CLASE3EJ001.o" 
+Info: Nothing to build for CLASE3EJ001
+18:19:05 **** Incremental Build of configuration Debug for project CLASE3EJ001 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASE3EJ001.o" "..\\src\\CLASE3EJ001.c" 
+gcc -o CLASE3EJ001.exe "src\\CLASE3EJ001.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file CLASE3EJ001.exe: Permission denied
 collect2.exe: error: ld returned 1 exit status
-17:49:44 **** Incremental Build of configuration Debug for project Clase2Ej001 ****
+18:19:06 **** Incremental Build of configuration Debug for project CLASE3EJ001 ****
 Info: Internal Builder is used for build
-gcc -o Clase2Ej001.exe "src\\Clase2Ej001.o" 
-17:50:24 **** Incremental Build of configuration Debug for project Clase2Ej001 ****
+gcc -o CLASE3EJ001.exe "src\\CLASE3EJ001.o" 
+18:19:45 **** Incremental Build of configuration Debug for project CLASE3EJ001 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase2Ej001.o" "..\\src\\Clase2Ej001.c" 
-..\src\Clase2Ej001.c: In function 'main':
-..\src\Clase2Ej001.c:53:47: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
-   53 |  printf("\n El promedio de ambos numeros es: %d", averageNumber);
-      |                                              ~^   ~~~~~~~~~~~~~
-      |                                               |   |
-      |                                               int double
-      |                                              %f
-gcc -o Clase2Ej001.exe "src\\Clase2Ej001.o" 
-17:50:31 **** Incremental Build of configuration Debug for project Clase2Ej001 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASE3EJ001.o" "..\\src\\CLASE3EJ001.c" 
+gcc -o CLASE3EJ001.exe "src\\CLASE3EJ001.o" 
+Info: Nothing to build for CLASE3EJ001
+Info: Nothing to build for CLASE3EJ001
+18:20:45 **** Incremental Build of configuration Debug for project CLASE3EJ001 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase2Ej001.o" "..\\src\\Clase2Ej001.c" 
-gcc -o Clase2Ej001.exe "src\\Clase2Ej001.o" 
-Info: Nothing to build for Clase2Ej001
-Info: Nothing to build for Clase2Ej001
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASE3EJ001.o" "..\\src\\CLASE3EJ001.c" 
+gcc -o CLASE3EJ001.exe "src\\CLASE3EJ001.o" 
+18:21:03 **** Incremental Build of configuration Debug for project CLASE3EJ001 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CLASE3EJ001.o" "..\\src\\CLASE3EJ001.c" 
+gcc -o CLASE3EJ001.exe "src\\CLASE3EJ001.o" 
+Info: Nothing to build for CLASE3EJ001
+Info: Nothing to build for CLASE3EJ001
