@@ -55,11 +55,10 @@ int main(void) {
 
 		jugar = 1;
 		while (jugar == 1) {
-			numeroIngresado = getInt("Ingrese un numero (0-99 )\n");
+			numeroIngresado = getInt("Ingrese un numero (0-100 )\n");
 
 			if (numeroIngresado < 0) {
 				jugar = 0;
-
 			} else if (numeroIngresado == numeroOculto) {
 				printf("Felicitaciones GANASTE!!   \n");
 				jugar = 0;
