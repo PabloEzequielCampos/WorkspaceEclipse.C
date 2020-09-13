@@ -20,17 +20,15 @@ int main() {
 
 	int valor1, valor2, resultado; 			// 3 VARIABLES DECLARAS JUNTAS
 
-	printf("\n Ingrese primer  numero a sumar");
+	printf("\n Ingrese primer  numero a sumar \n ");
 	scanf("%d", &valor1);
 
-	printf("\n Ingrese segundo numero a sumar");
+	printf("\n Ingrese segundo numero a sumar \n ");
 	scanf("%d", &valor2);
 
 	resultado = suma(valor1,valor2);
 
 	printf("\n El resultado es: %d", resultado);
-
-
 
 	return 0;
 }
@@ -38,9 +36,7 @@ int main() {
 int suma(int num1, int num2)	  // DESARROLLO de la funcion
 
 {
-
 	int total;
 	total = num1 + num2;
 	return total;
-
 }
