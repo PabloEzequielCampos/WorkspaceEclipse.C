@@ -30,8 +30,11 @@ int factorialValue1(int value1);  // Factorial 1
 int factorialValue2(int value2);  // Factorial 2
 
 
-int utn_getNumero(int* pResultado,char* mensaje,char* mensajeError,int minimo,int maximo,int reintentos);
-int utn_getNumeroFlotante(float* pResultado,char* mensaje,char* mensajeError,float minimo,float maximo,int reintentos);
-int utn_getCaracter(char* pResultado,char* mensaje,char* mensajeError,char minimo,char maximo,int reintentos);
+int utn_getNumero(int* pResultado,char* mensaje,char* mensajeError,int minimo,int maximo,int reintentos);  // UTN GET NUMERO
+
+int utn_getNumeroFlotante(float* pResultado,char* mensaje,char* mensajeError,float minimo,float maximo,int reintentos); // UTN GET FLOAT
+
+int utn_getCaracter(char *pResultado, char *mensaje, char *mensajeError,char minimo, char maximo, int reintentos); // UTN GET CARACTER
+
 
 #endif /* UTN_H_ */

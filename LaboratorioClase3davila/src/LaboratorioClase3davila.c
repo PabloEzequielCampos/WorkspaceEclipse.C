@@ -18,26 +18,39 @@ int main(void) {
 	int peso;
 	int respuesta;
 	char letra;
+	float numeroFloat;
 
-	respuesta = utn_getCaracter(&letra, "\n letra? \n ","Error la letra debe ser de A a J\n", 'A','J', 3);
+	respuesta = utn_getCaracter(&letra, "\n letra? \n ","Error la letra debe ser de A a J\n", 'A', 'J', 3); // GET CHAR
 	if (respuesta == 0) {
 		printf("\n La letra es: %c \n ", letra);
 	} else {
-		printf("\n Error\n ");
-	}
+		printf("\n Error \n ");
 
-	respuesta = utn_getNumero(&edad, "Edad? \n ","Error la edad debe ser de 0 a 199\n", 0, 199, 2);
+	}//FIN GET CHAR
+
+	respuesta = utn_getNumero(&edad, "\n Edad? \n ","Error la edad debe ser de 0 a 199\n", 0, 199, 2);// GET NUMERO
 	if (respuesta == 0) {
 		printf("\n La edad es: %d \n ", edad);
 	} else {
-		printf("\n Error\n ");
-	}
-	respuesta = utn_getNumero(&peso, "\n peso? \n ","Error el peso ser de 0 a 500\n", 0, 500, 3);
+		printf("\n Error \n ");
+
+	} // FIN GET NUMERO
+
+	respuesta = utn_getNumero(&peso, "\n peso? \n ","Error el peso ser de 0 a 500\n", 0, 500, 3); // GET NUMERO EN (PESO)
 	if (respuesta == 0) {
-		printf("\n el peso es: %d\n ", peso);
+		printf("\n el peso es: %d \n ", peso);
 	} else {
-		printf("\n Error\n ");
-	}
+		printf("\n Error \n ");
+
+	}// FIN GET NUMERO (PESO)
+
+	respuesta = utn_getNumeroFlotante(&numeroFloat, "\n Flotante? \n ","Error El flotante ser de 0 a 500 \n", 0, 500, 2); // GET FLOAT
+		if (respuesta == 0) {
+			printf("\n El flotante es: %.2f \n ", numeroFloat);
+		} else {
+			printf("\n Error \n ");
+
+		} // FIN GET FLOAT.
 
 	return 0;
 

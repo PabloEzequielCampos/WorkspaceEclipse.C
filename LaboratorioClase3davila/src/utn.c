@@ -146,7 +146,6 @@ int factorialValue2(int value2) {  // Factorial
 	return total2;
 }  // fin factorial num 2
 
-
 /**
  *\brief  Pido un valor lo guardo en bufferint y compruebo que no sea NULL
  *\param  Realizo la validacion de numero entero y lo muestro
@@ -158,24 +157,23 @@ int utn_getNumero(int *pResultado, char *mensaje, char *mensajeError,int minimo,
 	int bufferInt;
 	int retorno = -1;
 
-	do{
+	do {
 
-	if (pResultado != NULL && mensaje != NULL && mensajeError != NULL && minimo <= maximo && reintentos >= 0) {
+		if (pResultado != NULL && mensaje != NULL && mensajeError != NULL
+				&& minimo <= maximo && reintentos >= 0) {
 
-		printf("%s", mensaje);
-		scanf("%d" , &bufferInt);
-	}
+			printf("%s", mensaje);
+			scanf("%d", &bufferInt);
+		}
 		if (bufferInt >= minimo && bufferInt <= maximo) {
 			*pResultado = bufferInt;
 			retorno = 0;
 			break;
-		}
-		else
-		{
+		} else {
 			printf("%s", mensajeError);
 			reintentos--;
 		}
-	}while(reintentos >= 0);
+	} while (reintentos >= 0);
 
 	return retorno;
 
@@ -188,34 +186,66 @@ int utn_getNumero(int *pResultado, char *mensaje, char *mensajeError,int minimo,
  *
  */
 
-int utn_getCaracter(char* pResultado,char* mensaje,char* mensajeError,char minimo,char maximo,int reintentos)
-{
+int utn_getCaracter(char *pResultado, char *mensaje, char *mensajeError,char minimo, char maximo, int reintentos) {
+
 	char bufferChar;
 	int retorno = -1;
 
-	do{
+	do {
 
-	if (pResultado != NULL && mensaje != NULL && mensajeError != NULL && minimo <= maximo && reintentos >= 0) {
+		if (pResultado != NULL && mensaje != NULL && mensajeError != NULL
+				&& minimo <= maximo && reintentos >= 0) {
 
-		printf("%s", mensaje);
-		fflush(stdin);
-		scanf("%c" , &bufferChar);
-	}
+			printf("%s", mensaje);
+			fflush(stdin);
+			scanf("%c", &bufferChar);
+		}
 		if (bufferChar >= minimo && bufferChar <= maximo) {
 			*pResultado = bufferChar;
 			retorno = 0;
 			break;
-		}
-		else
-		{
+		} else {
 			printf("%s", mensajeError);
 			reintentos--;
 		}
-	}while(reintentos >= 0);
+	} while (reintentos >= 0);
 
 	return retorno;
 
 } // FIN GET CHAR
 
+/**
+ *\brief  Pido un valor char lo guardo en BufferChar y compruebo que no sea NULL
+ *\param  Realizo la validacion de CARACTER
+ *\return Entrego el resultado siempre y cuando retorno pase a 0.
+ *
+ */
+
+int utn_getNumeroFlotante(float* pResultado,char* mensaje,char* mensajeError,float minimo,float maximo,int reintentos)
+{
+	float bufferFloat;
+	int retorno = -1;
+
+	do {
+
+		if (pResultado != NULL && mensaje != NULL && mensajeError != NULL
+				&& minimo <= maximo && reintentos >= 0) {
+
+			printf("%s", mensaje);
+			scanf("%f", &bufferFloat);
+		}
+		if (bufferFloat >= minimo && bufferFloat <= maximo) {
+			*pResultado = bufferFloat;
+			retorno = 0;
+			break;
+		} else {
+			printf("%s", mensajeError);
+			reintentos--;
+		}
+	} while (reintentos >= 0);
+
+	return retorno;
+
+} // FIN GET FLOAT
 
 

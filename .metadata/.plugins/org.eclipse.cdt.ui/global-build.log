@@ -64,3 +64,34 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LaboratorioClase3davila.o" "..\\src\\LaboratorioClase3davila.c" 
 gcc -o LaboratorioClase3davila.exe "src\\LaboratorioClase3davila.o" "src\\utn.o" 
+Info: Nothing to build for LaboratorioClase3davila
+Info: Nothing to build for LaboratorioClase3davila
+12:29:28 **** Incremental Build of configuration Debug for project LaboratorioClase3davila ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LaboratorioClase3davila.o" "..\\src\\LaboratorioClase3davila.c" 
+gcc -o LaboratorioClase3davila.exe "src\\LaboratorioClase3davila.o" "src\\utn.o" 
+Info: Nothing to build for LaboratorioClase3davila
+12:29:53 **** Incremental Build of configuration Debug for project LaboratorioClase3davila ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LaboratorioClase3davila.o" "..\\src\\LaboratorioClase3davila.c" 
+gcc -o LaboratorioClase3davila.exe "src\\LaboratorioClase3davila.o" "src\\utn.o" 
+Info: Nothing to build for LaboratorioClase3davila
+12:30:28 **** Incremental Build of configuration Debug for project LaboratorioClase3davila ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LaboratorioClase3davila.o" "..\\src\\LaboratorioClase3davila.c" 
+gcc -o LaboratorioClase3davila.exe "src\\LaboratorioClase3davila.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file LaboratorioClase3davila.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:30:31 **** Incremental Build of configuration Debug for project LaboratorioClase3davila ****
+Info: Internal Builder is used for build
+gcc -o LaboratorioClase3davila.exe "src\\LaboratorioClase3davila.o" "src\\utn.o" 
+12:30:51 **** Incremental Build of configuration Debug for project LaboratorioClase3davila ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LaboratorioClase3davila.o" "..\\src\\LaboratorioClase3davila.c" 
+gcc -o LaboratorioClase3davila.exe "src\\LaboratorioClase3davila.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file LaboratorioClase3davila.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:30:52 **** Incremental Build of configuration Debug for project LaboratorioClase3davila ****
+Info: Internal Builder is used for build
+gcc -o LaboratorioClase3davila.exe "src\\LaboratorioClase3davila.o" "src\\utn.o" 
